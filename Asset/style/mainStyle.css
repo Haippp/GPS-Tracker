@@ -1,0 +1,108 @@
+:root{
+    --background-siang: #fcfcfc;
+    --background-malam: #1a1a1a;
+    --warna-malam: #3f42d3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#tampilan {
+    background-color: var(--background-siang);
+}
+
+.container {
+    font-family: Helvetica, sans-serif;
+    height: 90vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.7rem;
+}
+
+.left {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.5rem;
+}
+
+.left h3{
+    background-color: var(--warna-siang);
+    padding: 0 3rem;
+}
+
+.left iframe {
+    width: 650px;
+    height: 500px;
+}
+
+.right{
+    box-sizing: border-box;
+    width: 350px;
+    height: 550px;
+    background-color: var(--warna-siang);
+    padding: 1.8rem;
+    border-radius: 10px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nama p{
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.nama h3{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.profile img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.status-title { 
+    display: flex;
+    gap: 0.8rem;
+}
+
+.status-content {
+    margin: 1rem 0 0 2rem;
+}
+
+.log-title {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.log-content{
+    height: 250px;
+    overflow: scroll;
+    margin: 1rem 0 0 2rem;
+}
+
+.right li{
+    margin-top: 10px;
+}
+
+.copyright{
+    align-items: center;
+    padding: 20px 0;
+    color: black;
+} 
