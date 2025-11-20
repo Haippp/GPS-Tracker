@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --background-siang: #fcfcfc;
+    --background-malam: #1a1a1a;
+    --warna-malam: #3f42d3;
+    --warna-malam-2: #292bb6;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #0F3D91;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+header .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer{
+    background: #0F3D91;
+    padding: 15px 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.title-section {
+    display: flex;
+    gap: 5rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.title p{
+    margin-bottom: 50px;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--warna-malam);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.banner img{
+    width: 400px;
+}
+
+.title a:hover{
+    background-color: var(--warna-malam-2);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.information{
+    margin: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.Main-Explain{
+    height: 100vh;
+}
+.sw{
+    background-color: #3f42d3;
+}
+.container{
+    display: flex;
+    
+}
+
+.Product{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-product{
+    width: 600px;
+}
+
+.Product .banner{
+    width: 150px;
+}
