@@ -25,7 +25,7 @@
 
 ---
 
-## 🚀 **Apa Itu Project Ini?**
+## 🚀 **Project Apa Ini?**
 GPS Tracker System adalah platform pelacakan lokasi berbasis **C++ (Firmware)** dan **Web Dashboard** yang menampilkan koordinat GPS secara **real-time** melalui peta interaktif.  
 Project ini dirancang agar:
 - ⚡ _Cepat & stabil_
