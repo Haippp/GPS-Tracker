@@ -74,6 +74,7 @@ footer{
 
 .title p{
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .title a{
@@ -96,14 +97,19 @@ footer{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--warna-malam);
 }
+
 .information{
     margin: 0 280px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     gap: 3rem;
 }
+
 .information h1{
     background-color: #ee0000;
     color:  #F5FEFD;
@@ -116,25 +122,40 @@ footer{
     margin-left: 25px;
     white-space: nowrap;
 }
+
 .information p{
     margin-top: 0;
     text-align: justify;
 }
+
 .container{
-    display: flex;
-    gap: 5rem;
-    margin: 0px 280px;
-    height: 50vh;
     justify-content: center;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: justify;
 }
+
+.container .card{
+    width: 300px;
+    height: 200px;
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.container .card2{
+    width: 670px;
+    height: 200px;
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
 .sw{
     background-color: #babbff;
     margin: 0 280px;
     text-align: justify;
-}
-.container{
-    display: flex;
-    
 }
 
 .Product{
