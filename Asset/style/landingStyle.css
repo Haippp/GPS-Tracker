@@ -92,22 +92,45 @@ footer{
     background-color: var(--warna-malam-2);
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
-   
-}
-.information{
-    margin: 0 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-}
 .Main-Explain{
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    margin: 0 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.information h1{
+    background-color: #ee0000;
+    color:  #F5FEFD;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-left: 25px;
+    white-space: nowrap;
+}
+.information p{
+    margin-top: 0;
+    text-align: justify;
+}
+.container{
+    display: flex;
+    gap: 5rem;
+    margin: 0px 280px;
+    height: 50vh;
+    justify-content: center;
 }
 .sw{
-    background-color: #3f42d3;
+    background-color: #babbff;
+    margin: 0 280px;
+    text-align: justify;
 }
 .container{
     display: flex;
