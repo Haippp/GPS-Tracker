@@ -27,8 +27,6 @@ header nav {
     background: var(--warna-malam);
     position: sticky;
     top: 0;
-    
-    
 }
 
 header .logo {
@@ -74,6 +72,7 @@ footer{
 
 .title p{
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .title a{
@@ -96,46 +95,117 @@ footer{
     height: 100vh;
     justify-content: center;
     align-items: center;
-}
-.information{
-    margin: 0 280px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-color: var(--warna-malam);
 }
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    gap: 2rem;
+}
+
 .information h1{
     background-color: #ee0000;
     color:  #F5FEFD;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0px 5px;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 30px;
     margin-top: 0;
-    margin-left: 25px;
     white-space: nowrap;
 }
+
 .information p{
     margin-top: 0;
     text-align: justify;
+    color: var(--background-siang);
+    width: 75%;
 }
+
 .container{
-    display: flex;
-    gap: 5rem;
-    margin: 0px 280px;
-    height: 50vh;
     justify-content: center;
-}
-.sw{
-    background-color: #babbff;
-    margin: 0 280px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
     text-align: justify;
 }
-.container{
-    display: flex;
-    
+
+.container .card{
+    width: 300px;
+    height: 200px;
+    background-color: var(--background-siang);
+    border: 2px solid var(--background-malam);
+    box-shadow: 0px 5px;
+    padding: 15px;
+    border-radius: 10px;
 }
+
+.container .card2{
+    width: 300px;
+    height: 200px;
+    background-color: var(--warna-malam-2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid var(--background-malam);
+    box-shadow: 0px 5px;
+}
+
+.card3{
+    width: 300px;
+    margin-top: 30px;
+    height: 200px;
+    background-color: #f1f1f1;
+    border: 2px solid var(--background-malam);
+    box-shadow: 0px 5px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.card h3{
+    background-color: var(--warna-malam-2);
+    color: var(--background-siang);
+    padding: 0px 5px;
+    width: 23%;
+    text-align: center;
+    justify-items: center;
+}
+
+.card2 h3{
+    background-color: var(--background-siang);
+    color: var(--background-malam);
+    padding: 0px 5px;
+    width: 42%;
+    text-align: center;
+    justify-items: center;
+}
+
+.card3 h3{
+    background-color: var(--warna-malam-2);
+    color: var(--background-siang);
+    padding: 0px 5px;
+    width: 26%;
+    text-align: center;
+    justify-items: center;
+}
+
+.card a, .card3 a{
+    text-decoration: none;
+    color: var(--warna-malam);
+    font-weight: bold;
+}
+.card2 a{
+    text-decoration: none;
+    color: var(--background-siang);
+    font-weight: bold;
+}
+
 
 .Product{
     height: 100vh;
