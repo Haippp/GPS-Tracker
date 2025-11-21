@@ -50,7 +50,7 @@ header nav ul li a {
 }
 
 footer{
-    background: #0F3D91;
+    background: var(--warna-malam);
     padding: 15px 40px;
     font-size: 16px;
     color: white;
@@ -101,7 +101,8 @@ footer{
     align-items: center;
     flex-direction: column;
     background-size: cover;
-    background-color: var(--warna-malam);
+    background-color: var(--warna-malam-2);
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .information{
@@ -158,7 +159,6 @@ footer{
 
 .card3{
     width: 300px;
-    height: 200px;
     background-color: #f1f1f1;
     border: 2px solid var(--background-malam);
     box-shadow: 0px 5px;
