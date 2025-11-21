@@ -27,8 +27,6 @@ header nav {
     background: var(--warna-malam);
     position: sticky;
     top: 0;
-    
-    
 }
 
 header .logo {
@@ -105,9 +103,10 @@ footer{
 }
 
 .information{
-    margin: 0 280px;
     display: flex;
-    gap: 3rem;
+    justify-content: space-between;
+    width: 69%;
+    gap: 2rem;
 }
 
 .information h1{
@@ -117,21 +116,20 @@ footer{
     padding: 5px 10px;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 30px;
     margin-top: 0;
-    margin-left: 25px;
     white-space: nowrap;
 }
 
 .information p{
     margin-top: 0;
     text-align: justify;
+    width: 75%;
 }
 
 .container{
     justify-content: center;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     text-align: justify;
 }
@@ -140,21 +138,17 @@ footer{
     width: 300px;
     height: 200px;
     background-color: #f1f1f1;
-    padding: 1.5rem;
+    padding: 15px;
     border-radius: 10px;
 }
 
-.container .card2{
-    width: 670px;
+.card2{
+    width: 660px;
+    margin-top: 30px;
     height: 200px;
     background-color: #f1f1f1;
-    padding: 1.5rem;
+    padding: 15px;
     border-radius: 10px;
-}
-
-.sw{
-    background-color: #babbff;
-    margin: 0 280px;
     text-align: justify;
 }
 
