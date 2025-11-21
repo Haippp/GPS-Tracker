@@ -1,9 +1,11 @@
 <!-- HEADER -->
 <div align="center">
 
-<img src="https://img.icons8.com/?size=512&id=23107&format=png" width="120" />
+<img src="./Asset/logo/biru tanpa teks.png" width="120" />
+<br/>
+<br/>
 
-# 🌍✨ **GPS TRACKER SYSTEM**
+# 🌍✨ **Semicolon Tracker**
 ### _Real-Time Location Tracking • C++ Firmware • Modern Web Dashboard_
 
 <br/>
@@ -26,7 +28,7 @@
 ---
 
 ## 🚀 **Project Apa Ini?**
-GPS Tracker System adalah platform pelacakan lokasi berbasis **C++ (Firmware)** dan **Web Dashboard** yang menampilkan koordinat GPS secara **real-time** melalui peta interaktif.  
+Semicolon Tracker adalah platform pelacakan lokasi berbasis **C++ (Firmware)** dan **Web Dashboard** yang menampilkan koordinat GPS secara **real-time** melalui peta interaktif.  
 Project ini dirancang agar:
 - ⚡ _Cepat & stabil_
 - 📡 _Akurat membaca sinyal GPS_
