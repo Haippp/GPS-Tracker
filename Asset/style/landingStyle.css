@@ -17,6 +17,7 @@ body {
 header{
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 header nav {
@@ -27,8 +28,7 @@ header nav {
     background: var(--warna-malam);
     position: sticky;
     top: 0;
-    
-    
+    z-index: 100;
 }
 
 header .logo {
@@ -52,7 +52,7 @@ header nav ul li a {
 }
 
 footer{
-    background: #0F3D91;
+    background: var(--warna-malam);
     padding: 15px 40px;
     font-size: 16px;
     color: white;
@@ -83,6 +83,7 @@ footer{
     background-color: var(--warna-malam);
     padding: 1rem;
     border-radius: 10px;
+    text-align: center;
 }
 
 .banner img{
@@ -94,68 +95,181 @@ footer{
 }
 
 .Main-Explain{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: var(--warna-malam);
+    background-size: cover;
+    background-color: var(--warna-malam-2);
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .information{
-    margin: 0 280px;
     display: flex;
-    gap: 3rem;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 69%;
+    gap: 2rem;
 }
 
 .information h1{
     background-color: #ee0000;
     color:  #F5FEFD;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0px 5px;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 30px;
     margin-top: 0;
-    margin-left: 25px;
     white-space: nowrap;
 }
 
 .information p{
     margin-top: 0;
     text-align: justify;
+    color: var(--background-siang);
+    width: 75%;
 }
 
 .container{
     justify-content: center;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     text-align: justify;
 }
 
 .container .card{
     width: 300px;
-    height: 200px;
-    background-color: #f1f1f1;
-    padding: 1.5rem;
+    background-color: var(--background-siang);
+    border: 2px solid var(--background-malam);
+    box-shadow: 0px 5px;
+    padding: 15px;
     border-radius: 10px;
+    transition: transform 0.2s ease;
 }
 
 .container .card2{
-    width: 670px;
-    height: 200px;
-    background-color: #f1f1f1;
-    padding: 1.5rem;
+    width: 300px;
+    background-color: var(--background-siang);
+    padding: 15px;
     border-radius: 10px;
+    border: 2px solid var(--background-malam);
+    box-shadow: 0px 5px;
+    transition: transform 0.2s ease;
 }
 
-.sw{
-    background-color: #babbff;
-    margin: 0 280px;
+.card3{
+    width: 300px;
+    background-color: #f1f1f1;
+    border: 2px solid var(--background-malam);
+    box-shadow: 0px 5px;
+    padding: 15px;
+    border-radius: 10px;
     text-align: justify;
+    transition: transform 0.2s ease;
+}
+
+.container .card:hover, .container .card2:hover, .card3:hover {
+    box-shadow: 0px 5px;
+    transform: translateY(-5px) scale(1.02);
+}
+
+.card h3{
+    background-color: var(--warna-malam-2);
+    color: var(--background-siang);
+    padding: 0px 5px;
+    width: 23%;
+    text-align: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+
+.card2 h3{
+    background-color: var(--warna-malam-2);
+    color: var(--background-siang);
+    padding: 0px 5px;
+    width: 42%;
+    text-align: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+
+.card3 h3{
+    background-color: var(--warna-malam-2);
+    color: var(--background-siang);
+    padding: 0px 5px;
+    width: 26%;
+    text-align: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+
+.card a, .card2 a{
+    text-decoration: none;
+    color: var(--warna-malam);
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px; 
+}
+.card a{
+    margin-bottom: 10px;
+}
+
+.card3 a{
+    text-decoration: none;
+    color: var(--warna-malam);
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.Icon-Selengkapnya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+.card .Icon-Selengkapnya {
+    margin-top: 30px;
+}
+
+.card2 .Icon-Selengkapnya {
+    margin-top: 12px;
+}
+
+.card3 .Icon-Selengkapnya {
+    margin-top: 16px;
+}
+
+.card a {
+    margin-bottom: 13px;
+} 
+
+.card2 a {
+    margin-bottom: 12px;
+} 
+
+.card3 a {
+    margin-bottom: 14px;
+}
+
+.Icon-Selengkapnya img {
+    text-decoration: none;
+    width: 20px;
+    margin-right: 10px;
+    rotate: calc(180deg);
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 0;
+}
+.Icon-Selengkapnya a {
+    text-decoration: none;
+    color: var(--warna-malam);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
 }
 
 .Product{
