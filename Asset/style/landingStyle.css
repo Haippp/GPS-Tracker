@@ -286,3 +286,15 @@ footer{
 .Product .banner{
     width: 150px;
 }
+.logo img {
+    height: 35px; 
+    width: auto; 
+}
+.logo {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    font-size: 1.6em; 
+    font-weight: 700; 
+    color: white; 
+}
