@@ -1,9 +1,3 @@
-function updateData(data) {
-    let mapURL = `https://maps.google.com/maps?q=${data.lat},${data.lng}&z=15&output=embed`;
-    document.getElementById("map").src = mapURL;
-}
-
-
 function greetingByTime(){
     let jam = new Date();
     let jamSekarang = jam.getHours();
@@ -48,11 +42,10 @@ function dynamicInterface(nowTime){
     }
 }
 
-let dummyData = {
+let dummyDatas = {
         lat: -6.2000,
         lng: 106.8166,
 };
 
 let waktuSekarang = greetingByTime()
 dynamicInterface(waktuSekarang)
-updateData(dummyData)
