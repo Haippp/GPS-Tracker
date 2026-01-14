@@ -43,6 +43,7 @@ void loop() {
       Serial.println(lng, 6);
 
       Serial.print("Altitude : ");
+      Serial.print(gps.altitude.meters(), 6);
       
       if (gps.altitude.isValid()) Serial.println(gps.altitude.meters());
       else Serial.println("INVALID");
